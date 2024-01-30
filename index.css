@@ -12,10 +12,11 @@
 }
 .nav-fixed {
   position: fixed;
+  top: 0;
   width: 100%;
 }
 
-/* Media query for screens greater than 576 pixels */
+/* Media query for screens lesser than 576 pixels */
 @media (min-width: 576px) {
   .nav-link {
     position: relative;
@@ -58,19 +59,15 @@
 }
 
 .image-wrapper {
-  /* background-attachment: fixed; */
-}
-img {
+  background-image: url("./Profile.img.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   width: 100%;
   height: 100vh;
-  object-fit: cover;
-  /* background-attachment: fixed; */
 }
 /* -------------------------------waste code ---------------------- */
 
-.wrapper {
-  object-fit: cover;
-}
 .redi {
   height: 100vh;
   background-color: red;
