@@ -57,6 +57,15 @@
   background: linear-gradient(blue, orange, pink);
 }
 
+.image-wrapper {
+  /* background-attachment: fixed; */
+}
+img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  /* background-attachment: fixed; */
+}
 /* -------------------------------waste code ---------------------- */
 
 .wrapper {
