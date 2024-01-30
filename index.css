@@ -59,6 +59,9 @@
 
 /* -------------------------------waste code ---------------------- */
 
+.wrapper {
+  object-fit: cover;
+}
 .redi {
   height: 100vh;
   background-color: red;
