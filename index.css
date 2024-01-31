@@ -14,6 +14,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 9999;
 }
 
 /* Media query for screens lesser than 576 pixels */
@@ -63,14 +64,15 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  width: 100%;
+  width: 97%;
   height: 100vh;
+  margin: auto;
 }
 /* -------------------------------waste code ---------------------- */
 
 .redi {
   height: 100vh;
-  background-color: red;
+  background-color: black;
 }
 .orangei {
   height: 100vh;
