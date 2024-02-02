@@ -1,6 +1,7 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /* ------navbar styling ----------------------- */
 .navbar-nav {
   font-size: small;
@@ -67,6 +68,33 @@
   width: 97%;
   height: 100vh;
   margin: auto;
+}
+.greeting-wrapper {
+  /* font-weight: bold; */
+  font-size: 4rem;
+}
+.greeting-wrapper .greeting {
+  font-weight: bold;
+  background: linear-gradient(to left, orange 0%, #330867 100%);
+  background-clip: text;
+  color: transparent;
+}
+.resume-line {
+  color: gray;
+}
+.profile-name {
+  background: linear-gradient(to left, red 0%, #330867 100%);
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.designation {
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 2rem;
 }
 /* -------------------------------waste code ---------------------- */
 
