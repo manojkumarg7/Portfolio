@@ -75,26 +75,29 @@
 }
 .greeting-wrapper .greeting {
   font-weight: bold;
-  background: linear-gradient(to left, orange 0%, #330867 100%);
+  background: linear-gradient(to left, orange 0%, red 100%);
   background-clip: text;
   color: transparent;
 }
 .resume-line {
   color: gray;
+  font-size: 12px;
+  word-spacing: 3px;
 }
 .profile-name {
-  background: linear-gradient(to left, red 0%, #330867 100%);
+  /* background: linear-gradient(to left, red 0%, #330867 100%);
   background-clip: text;
-  color: transparent;
+  color: transparent; */
+  color: white;
   font-weight: bold;
   font-size: 3rem;
 }
 .designation {
-  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  background: linear-gradient(to right, #3d3ba3 0%, #c405ca 100%);
   background-clip: text;
   color: transparent;
-  font-weight: bold;
-  font-size: 2rem;
+  /* font-weight: bold; */
+  font-size: 1.7rem;
 }
 /* -------------------------------waste code ---------------------- */
 
