@@ -1,5 +1,6 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: poppins;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 /* ------navbar styling ----------------------- */
@@ -70,7 +71,6 @@
   margin: auto;
 }
 .greeting-wrapper {
-  /* font-weight: bold; */
   font-size: 4rem;
 }
 .greeting-wrapper .greeting {
@@ -85,19 +85,13 @@
   word-spacing: 3px;
 }
 .profile-name {
-  /* background: linear-gradient(to left, red 0%, #330867 100%);
-  background-clip: text;
-  color: transparent; */
   color: white;
   font-weight: bold;
   font-size: 3rem;
 }
 .designation {
-  background: linear-gradient(to right, #3d3ba3 0%, #c405ca 100%);
-  background-clip: text;
-  color: transparent;
-  /* font-weight: bold; */
   font-size: 1.7rem;
+  font-family: "Cedarville Cursive", cursive;
 }
 /* -------------------------------waste code ---------------------- */
 
