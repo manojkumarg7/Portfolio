@@ -1,6 +1,5 @@
 * {
-  font-family: poppins;
-  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* ------navbar styling ----------------------- */
@@ -16,10 +15,81 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 9999;
+  z-index: 2;
 }
 
-/* Media query for screens lesser than 576 pixels */
+/* -------custom sroll bar -------------- */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: white;
+}
+::-webkit-scrollbar-thumb {
+  background: gray;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(blue, orange, pink);
+}
+
+.home-page-introduction .image-wrapper {
+  background-image: url("./Profile.img.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  position: relative;
+}
+.home-page-introduction .home-page-introduction-info .greeting-wrapper {
+  /* font-size: 7vw; */
+  font-size: clamp(2rem, 3rem, 3rem);
+}
+.home-page-introduction
+  .home-page-introduction-info
+  .greeting-wrapper
+  .greeting {
+  font-weight: bold;
+  background: linear-gradient(to left, orange 0%, red 100%);
+  background-clip: text;
+  color: transparent;
+}
+.home-page-introduction .home-page-introduction-info .profile-name {
+  color: white;
+  font-size: clamp(1rem, 3rem, 3rem);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.home-page-introduction .home-page-introduction-info .designation {
+  font-size: clamp(1.3rem, 1.6rem, 1.7rem);
+  color: rgba(255, 255, 255, 0.678);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.home-page-introduction .home-page-introduction-info .resume-line {
+  color: gray;
+  font-size: 12px;
+  word-spacing: 3px;
+}
+
+/* -------------------------------waste code ---------------------- */
+
+.redi {
+  height: 100vh;
+  background-color: black;
+}
+.orangei {
+  height: 100vh;
+  background-color: orange;
+}
+.blue {
+  height: 100vh;
+  background-color: blue;
+}
+
+/* Media query for screens greater than 576 pixels */
+
 @media (min-width: 576px) {
   .nav-link {
     position: relative;
@@ -46,64 +116,18 @@
     opacity: 1;
     transition: all 0.8s;
   }
-}
-/* -------custom sroll bar -------------- */
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-track {
-  background: white;
-}
-::-webkit-scrollbar-thumb {
-  background: gray;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(blue, orange, pink);
+  .image-wrapper .home-page-introduction-info {
+    position: absolute;
+    inset: 70% 0px 0px 40%;
+    transform: translate(-50%, -50%);
+  }
 }
 
-.image-wrapper {
-  background-image: url("./Profile.img.jpeg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  width: 97%;
-  height: 100vh;
-  margin: auto;
-}
-.greeting-wrapper {
-  font-size: 4rem;
-}
-.greeting-wrapper .greeting {
-  font-weight: bold;
-  background: linear-gradient(to left, orange 0%, red 100%);
-  background-clip: text;
-  color: transparent;
-}
-.resume-line {
-  color: gray;
-  font-size: 12px;
-  word-spacing: 3px;
-}
-.profile-name {
-  color: white;
-  font-weight: bold;
-  font-size: 3rem;
-}
-.designation {
-  font-size: 1.7rem;
-  font-family: "Cedarville Cursive", cursive;
-}
-/* -------------------------------waste code ---------------------- */
-
-.redi {
-  height: 100vh;
-  background-color: black;
-}
-.orangei {
-  height: 100vh;
-  background-color: orange;
-}
-.blue {
-  height: 100vh;
-  background-color: blue;
+/* Media query for screens lesser than 576 pixels */
+@media (max-width: 576px) {
+  .image-wrapper .home-page-introduction-info {
+    position: absolute;
+    inset: 70% 0px 0px 35%;
+    transform: translate(-50%, -50%);
+  }
 }
