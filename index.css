@@ -57,12 +57,11 @@
 }
 .home-page-introduction .home-page-introduction-info .profile-name {
   color: white;
-  font-size: clamp(1rem, 3rem, 3rem);
+  /* font-size: 2.2rem; */
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .home-page-introduction .home-page-introduction-info .designation {
-  font-size: clamp(1.3rem, 1.6rem, 1.7rem);
   color: rgba(255, 255, 255, 0.678);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -121,6 +120,12 @@
     inset: 70% 0px 0px 40%;
     transform: translate(-50%, -50%);
   }
+  .home-page-introduction .home-page-introduction-info .profile-name {
+    font-size: 3rem;
+  }
+  .home-page-introduction .home-page-introduction-info .designation {
+    font-size: clamp(1.2rem, 1.3rem, 1.7rem);
+  }
 }
 
 /* Media query for screens lesser than 576 pixels */
@@ -129,5 +134,12 @@
     position: absolute;
     inset: 70% 0px 0px 35%;
     transform: translate(-50%, -50%);
+  }
+  .home-page-introduction .home-page-introduction-info .profile-name {
+    font-size: clamp(1.1rem, 1.7rem, 3rem);
+    /* font-size: 2rem; */
+  }
+  .home-page-introduction .home-page-introduction-info .designation {
+    font-size: 1.2rem;
   }
 }
