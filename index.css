@@ -234,8 +234,15 @@ a {
   .skills {
     height: 50vh;
   }
+  .cert-image {
+    width: 300px;
+  }
+  .certificates .certificate-wrapper .cerit-image-content {
+    width: 300px;
+    height: 500px;
+    background-color: #333333;
+  }
   .certificates .certificate-wrapper {
-   
-    padding-inline: 10px;
+     margin: auto;
   }
 }
