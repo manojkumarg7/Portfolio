@@ -1,5 +1,6 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 /* ------navbar styling ----------------------- */
@@ -140,12 +141,10 @@
 }
 .skills {
   color: white;
-  height: 100vh;
+  height: 60vh;
+  font-size: 2rem;
 }
-.skills .skill-head {
-  display: flex;
-  justify-content: center;
-}
+
 .skill_container {
   display: flex;
   gap: 10px;
@@ -168,7 +167,48 @@
   justify-content: center;
   align-items: center;
 }
-
+.skill-name {
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px 30px 0px;
+}
+.certificates .certificate-wrapper {
+  display: grid;
+  gap: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding-inline: 40px;
+}
+.certificates .certificate-wrapper .cerit-image-content {
+  width: 350px;
+  height: 500px;
+  background-color: #333333;
+}
+.heading-cert {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.sub-heading-cert {
+  font-size: 17px;
+}
+.cert-image {
+  width: 350px;
+  height: 300px;
+}
+a {
+  text-decoration: none;
+  color: #9cc964;
+}
+.certi-info {
+  padding-block: 35px;
+  padding-inline: 20px;
+}
 /* Media query for screens lesser than 576 pixels */
 @media (max-width: 576px) {
   .image-wrapper .home-page-introduction-info {
@@ -178,9 +218,11 @@
   }
   .home-page-introduction .home-page-introduction-info .profile-name {
     font-size: clamp(1.1rem, 1.7rem, 3rem);
-    /* font-size: 2rem; */
   }
   .home-page-introduction .home-page-introduction-info .designation {
     font-size: 1.2rem;
+  }
+  .skills {
+    height: 50vh;
   }
 }
