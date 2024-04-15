@@ -148,7 +148,7 @@
 }
 .skill_container {
   display: flex;
-  gap: 40px;
+  gap: 10px;
   padding-left: 15px;
   overflow-x: scroll;
   scrollbar-width: none;
@@ -157,6 +157,16 @@
 
 .skill_container::-webkit-scrollbar {
   display: none;
+}
+.skill-image {
+  min-width: 180px;
+  height: 195px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Media query for screens lesser than 576 pixels */
