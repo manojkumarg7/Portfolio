@@ -147,6 +147,8 @@
 
 .skill_container {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
   padding-left: 15px;
   overflow-x: scroll;
@@ -177,7 +179,7 @@
   color: white;
   display: flex;
   justify-content: center;
-  padding: 30px 0px 30px 0px;
+  /* padding: 30px 0px 30px 0px; */
 }
 .certificates .certificate-wrapper {
   display: grid;
@@ -194,6 +196,7 @@
   font-size: 20px;
   padding-bottom: 10px;
 }
+
 .sub-heading-cert {
   font-size: 17px;
 }
@@ -208,6 +211,12 @@ a {
 .certi-info {
   padding-block: 35px;
   padding-inline: 20px;
+}
+.skill-heading {
+  padding: 30px 0px 20px 0px;
+}
+.certificate-head {
+  padding: 10px 0px 30px 0px;
 }
 /* Media query for screens lesser than 576 pixels */
 @media (max-width: 576px) {
@@ -224,5 +233,9 @@ a {
   }
   .skills {
     height: 50vh;
+  }
+  .certificates .certificate-wrapper {
+   
+    padding-inline: 10px;
   }
 }
