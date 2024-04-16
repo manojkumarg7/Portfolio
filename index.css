@@ -98,7 +98,12 @@
   height: 100vh;
   background-color: blue;
 }
-
+.certificates {
+  max-width: 100%;
+}
+.skills {
+  max-width: 100%;
+}
 /* Media query for screens greater than 576 pixels */
 
 @media (min-width: 576px) {
@@ -139,28 +144,20 @@
     font-size: clamp(1.2rem, 1.3rem, 1.7rem);
   }
 }
-.skills {
-  color: white;
-  height: 60vh;
-  font-size: 2rem;
-}
-
-.skill_container {
+/* skills */
+.skills .skill_container {
+  width: 100%;
+  height: 40vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding-left: 15px;
-  overflow-x: scroll;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 0px 20px 0px 20px;
 }
-
 .skill_container::-webkit-scrollbar {
   display: none;
 }
 .skill-image {
-  min-width: 180px;
+  min-width: 170px;
   height: 195px;
   background-color: white;
   border: 1px solid gray;
@@ -175,20 +172,21 @@
   display: flex;
   justify-content: center;
 }
+
 .box {
   color: white;
   display: flex;
   justify-content: center;
-  /* padding: 30px 0px 30px 0px; */
 }
+/* --certificates--- */
 .certificates .certificate-wrapper {
-  display: grid;
-  gap: 80px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  padding-inline: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
 }
 .certificates .certificate-wrapper .cerit-image-content {
-  width: 350px;
+  width: 25%;
   height: 500px;
   background-color: #333333;
 }
@@ -201,7 +199,7 @@
   font-size: 17px;
 }
 .cert-image {
-  width: 350px;
+  width: 100%;
   height: 300px;
 }
 a {
@@ -231,18 +229,9 @@ a {
   .home-page-introduction .home-page-introduction-info .designation {
     font-size: 1.2rem;
   }
-  .skills {
-    height: 50vh;
-  }
-  .cert-image {
-    width: 300px;
-  }
+
   .certificates .certificate-wrapper .cerit-image-content {
-    width: 300px;
+    width: 265px;
     height: 500px;
-    background-color: #333333;
-  }
-  .certificates .certificate-wrapper {
-     margin: auto;
   }
 }
