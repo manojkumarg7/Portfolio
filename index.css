@@ -83,7 +83,27 @@
   font-size: 12px;
   word-spacing: 3px;
 }
+/* -----------about Section style--- */
+.image-abt {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+.about_bio {
+  width: 500px;
+  height: 400px;
+  padding: 0px 20px 0px 20px;
+}
 
+.about_section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  padding-top: 30px;
+}
 /* -------------------------------waste code ---------------------- */
 
 .redi {
@@ -216,6 +236,7 @@ a {
 .certificate-head {
   padding: 10px 0px 30px 0px;
 }
+
 /* Media query for screens lesser than 576 pixels */
 @media (max-width: 576px) {
   .image-wrapper .home-page-introduction-info {
@@ -233,5 +254,11 @@ a {
   .certificates .certificate-wrapper .cerit-image-content {
     width: 265px;
     height: 500px;
+  }
+  .image-abt {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
   }
 }
