@@ -88,6 +88,8 @@
   height: 400px;
   object-fit: cover;
   border-radius: 25px;
+  box-shadow: 0 4px 8px 4px rgba(114, 111, 111, 0.2),
+    0 6px 20px 0 rgba(83, 79, 79, 0.19);
 }
 .about_bio {
   width: 500px;
@@ -200,7 +202,7 @@
   justify-content: center;
 }
 .certificates .certificate-wrapper .cerit-image-content {
-  width: 25%;
+  width: 320px;
   height: 500px;
   background-color: #333333;
 }
@@ -230,6 +232,50 @@ a {
 .certificate-head {
   padding: 10px 0px 30px 0px;
 }
+/* --------form section------ */
+
+.form {
+  width: 400px;
+}
+.contact-heading {
+  padding: 10px 0px 10px 0px;
+}
+.head-line {
+  color: #9cc964;
+}
+.sub-line {
+  color: gray;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 6px;
+  outline: none;
+  border: none;
+  margin: 6px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #333333;
+}
+input:focus {
+  border: 1px solid gray;
+}
+.submit-btn {
+  width: 200px;
+  height: 40px;
+  padding: 6px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #6d625f;
+  outline: none;
+  border: none;
+}
+.form-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
 
 /* Media query for screens lesser than 576 pixels */
 @media (max-width: 576px) {
@@ -247,7 +293,8 @@ a {
   }
 
   .certificates .certificate-wrapper .cerit-image-content {
-    width: 265px;
+    width: 270px;
+    /* width: 265px; */
     height: 500px;
   }
   .image-abt {
@@ -255,6 +302,10 @@ a {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+  }
+  .form {
+    width: 90%;
+    margin: auto;
   }
 }
 
