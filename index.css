@@ -79,7 +79,7 @@
 }
 .home-page-introduction .home-page-introduction-info .resume-line {
   color: gray;
-  font-size: 12px;
+  font-size: 13px;
   word-spacing: 3px;
 }
 /* -----------about Section style--- */
@@ -162,11 +162,10 @@
 /* skills */
 .skills .skill_container {
   width: 100%;
-  height: 40vh;
   display: flex;
   overflow-x: auto;
   gap: 20px;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 30px 20px;
 }
 .skill_container::-webkit-scrollbar {
   display: none;
@@ -241,10 +240,10 @@ a {
   }
 
   .home-page-introduction .home-page-introduction-info .profile-name {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
   }
   .home-page-introduction .home-page-introduction-info .designation {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
 
   .certificates .certificate-wrapper .cerit-image-content {
