@@ -107,20 +107,7 @@
   width: 100%;
   padding-top: 30px;
 }
-/* -------------------------------waste code ---------------------- */
 
-.redi {
-  height: 100vh;
-  background-color: black;
-}
-.orangei {
-  height: 100vh;
-  background-color: orange;
-}
-.blue {
-  height: 100vh;
-  background-color: blue;
-}
 .certificates {
   max-width: 100%;
 }
