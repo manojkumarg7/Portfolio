@@ -44,7 +44,7 @@
   position: relative;
 }
 .home-page-introduction .home-page-introduction-info .greeting-wrapper {
-  font-size: clamp(2rem, 3rem, 3rem);
+  font-size: 4rem;
 }
 .home-page-introduction
   .home-page-introduction-info
@@ -57,12 +57,11 @@
 }
 .home-page-introduction .home-page-introduction-info .profile-name {
   color: white;
-  /* font-size: 2.2rem; */
+  font-size: 2.9rem;
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: transparent;
   -webkit-text-stroke: 1px #fff;
-  /* background: url("./backgrund.jpg"); */
   -webkit-background-clip: text;
   background-position: 0 0;
   animation: back 20s linear infinite;
@@ -95,7 +94,9 @@
   height: 400px;
   padding: 0px 20px 0px 20px;
 }
-
+.text {
+  color: gray;
+}
 .about_section {
   display: flex;
   justify-content: center;
@@ -156,12 +157,6 @@
     position: absolute;
     inset: 70% 0px 0px 40%;
     transform: translate(-50%, -50%);
-  }
-  .home-page-introduction .home-page-introduction-info .profile-name {
-    font-size: 3rem;
-  }
-  .home-page-introduction .home-page-introduction-info .designation {
-    font-size: clamp(1.2rem, 1.3rem, 1.7rem);
   }
 }
 /* skills */
@@ -244,11 +239,12 @@ a {
     inset: 70% 0px 0px 35%;
     transform: translate(-50%, -50%);
   }
+
   .home-page-introduction .home-page-introduction-info .profile-name {
-    font-size: clamp(1.1rem, 1.7rem, 3rem);
+    font-size: 2.1rem;
   }
   .home-page-introduction .home-page-introduction-info .designation {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .certificates .certificate-wrapper .cerit-image-content {
