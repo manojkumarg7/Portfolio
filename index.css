@@ -257,3 +257,15 @@ a {
     border-radius: 10px;
   }
 }
+
+@media (max-width: 380px) {
+  .home-page-introduction .home-page-introduction-info .profile-name {
+    font-size: 1.7rem;
+  }
+  .home-page-introduction .home-page-introduction-info .greeting-wrapper {
+    font-size: 3rem;
+  }
+  .home-page-introduction .home-page-introduction-info .designation {
+    font-size: 1.2rem;
+  }
+}
