@@ -285,6 +285,7 @@ input:focus {
   justify-content: center;
   align-items: center;
   border-radius: 50px;
+  cursor: pointer;
 }
 .icons .icond-back-g i {
   color: #9cc964;
