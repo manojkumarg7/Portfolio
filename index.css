@@ -291,6 +291,10 @@ input:focus {
   color: #9cc964;
   font-size: 25px;
 }
+.via-phone {
+  text-decoration: none;
+  color: gray;
+}
 .developed {
   display: flex;
   justify-content: center;
