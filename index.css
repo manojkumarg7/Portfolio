@@ -44,6 +44,7 @@ html {
   height: 100vh;
   margin: auto;
   position: relative;
+  /* filter: grayscale(100%); */
 }
 .home-page-introduction .home-page-introduction-info .greeting-wrapper {
   font-size: 4rem;
@@ -122,10 +123,11 @@ html {
   border-radius: 10px;
   border: none;
   color: white;
-  padding: 12px 30px;
+  padding: 8px 25px;
   cursor: pointer;
   font-size: 15px;
 }
+
 /* Media query for screens greater than 576 pixels */
 
 @media (min-width: 576px) {
@@ -225,8 +227,15 @@ a {
   padding-block: 35px;
   padding-inline: 20px;
 }
-.skill-heading {
+.heading {
   padding: 30px 0px 20px 0px;
+  font-size: 1.875rem;
+  font-weight: 100;
+}
+.heading .head-line-s {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-left: 10px;
 }
 .certificate-head {
   padding: 10px 0px 30px 0px;
@@ -352,5 +361,13 @@ input:focus {
   }
   .home-page-introduction .home-page-introduction-info .designation {
     font-size: 1.2rem;
+  }
+  .btn-abt-sec {
+    min-width: 150px;
+    height: auto;
+    padding: 8px 10px;
+  }
+  .about_section {
+    padding-bottom: 20px;
   }
 }
