@@ -2,7 +2,9 @@
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 /* ------navbar styling ----------------------- */
 .navbar-nav {
   font-size: small;
@@ -113,6 +115,16 @@
 }
 .skills {
   max-width: 100%;
+}
+
+.btn-abt-sec {
+  background-color: gray;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 15px;
 }
 /* Media query for screens greater than 576 pixels */
 
