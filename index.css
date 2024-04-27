@@ -321,6 +321,9 @@ input:focus {
   justify-content: center;
 }
 /* --my resume --- */
+.texts-g {
+  color: gray;
+}
 .education {
   padding: 13px;
 }
