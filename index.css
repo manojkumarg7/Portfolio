@@ -320,6 +320,27 @@ input:focus {
   display: flex;
   justify-content: center;
 }
+/* --my resume --- */
+.education {
+  padding: 13px;
+}
+.details {
+  max-width: 450px;
+  background-color: #333333;
+  padding: 15px 15px;
+  margin-bottom: 15px;
+}
+.resume-wrapper {
+  display: flex;
+  gap: 20px 20px;
+  flex-wrap: wrap;
+}
+.wrapper-align {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /* Media query for screens lesser than 576 pixels */
 @media (max-width: 576px) {
   .image-wrapper .home-page-introduction-info {
