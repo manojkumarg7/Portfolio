@@ -44,7 +44,6 @@ html {
   height: 100vh;
   margin: auto;
   position: relative;
-  /* filter: grayscale(100%); */
 }
 .home-page-introduction .home-page-introduction-info .greeting-wrapper {
   font-size: 4rem;
@@ -86,27 +85,45 @@ html {
   word-spacing: 3px;
 }
 /* featur project --- */
-.feature-portfolio {
+.feature-banner {
   display: flex;
   justify-content: center;
-  gap: 15px 30px;
   flex-wrap: wrap;
+  gap: 30px;
 }
-
-.port-image-wrapper {
-  width: 320px;
-  height: 320px;
+.feature-banner .feature-wrapper {
+  width: 330px;
+  height: 330px;
   background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+.feature-wrapper .feature-container {
+  width: 300px;
+  height: 300px;
   overflow: hidden;
 }
-.por-image {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
+.feature-wrapper .feature-container img {
+  width: 300px;
+  height: 300px;
   transition: transform 1s ease;
 }
-.por-image:hover {
+.feature-wrapper .feature-container img:hover {
   transform: scale(1.2);
+}
+.feature-wrapper .feature-container .feature-heading {
+  position: absolute;
+  bottom: 0;
+  width: 300px;
+  height: 55px;
+  background-color: #333333;
+}
+.feature-wrapper .feature-container .feature-heading p {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 /* -----------about Section style--- */
@@ -222,6 +239,8 @@ html {
   color: white;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding-top: 10px;
 }
 /* --certificates--- */
 .certificates .certificate-wrapper {
