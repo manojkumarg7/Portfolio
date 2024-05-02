@@ -121,6 +121,20 @@ html {
   height: 55px;
   background-color: #333333;
 }
+.feature-wrapper .feature-container .link-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 180px;
+  height: 40px;
+  padding: 10px 0px 5px 20px;
+  border-radius: 20px;
+  background-color: #333333;
+}
+.feature-wrapper .feature-container .link-icon:hover {
+  background-color: #457ebe;
+}
+
 .feature-wrapper .feature-container .feature-heading p {
   font-weight: bold;
   font-size: 1.2rem;
