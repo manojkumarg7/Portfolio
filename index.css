@@ -142,7 +142,15 @@ html {
 
 /* -----------about Section style--- */
 
-.image-abt {
+.about_section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  padding-top: 30px;
+}
+.about_section .about_image .image-abt {
   width: 400px;
   height: 400px;
   background-image: url("./profileImage.JPG");
@@ -153,21 +161,13 @@ html {
     0 6px 20px 0 rgba(83, 79, 79, 0.19);
 }
 
-.about_bio {
+.about_section .about_bio {
   width: 500px;
   height: 400px;
   padding: 0px 20px 0px 20px;
 }
-.text {
+.about_section .about_bio .about-content .text {
   color: gray;
-}
-.about_section {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 40px;
-  width: 100%;
-  padding-top: 30px;
 }
 
 .certificates {
@@ -229,10 +229,10 @@ html {
   gap: 20px;
   padding: 0px 20px 30px 20px;
 }
-.skill_container::-webkit-scrollbar {
+.skills .skill_container::-webkit-scrollbar {
   display: none;
 }
-.skill-image {
+.skills .skill_container .skill-image {
   min-width: 170px;
   height: 195px;
   background-color: white;
@@ -242,7 +242,7 @@ html {
   justify-content: center;
   align-items: center;
 }
-.skill-name {
+.skills .skill_container .skill-image .skill-name {
   color: black;
   font-weight: bold;
   display: flex;
@@ -268,12 +268,18 @@ html {
   height: 500px;
   background-color: #333333;
 }
-.heading-cert {
+.certificates
+  .certificate-wrapper
+  .cerit-image-content.certi-info
+  .heading-cert {
   font-size: 20px;
   padding-bottom: 10px;
 }
 
-.sub-heading-cert {
+.certificates
+  .certificate-wrapper
+  .cerit-image-content.certi-info
+  .sub-heading-cert {
   font-size: 17px;
 }
 .cert-image {
@@ -422,7 +428,6 @@ input:focus {
 
   .certificates .certificate-wrapper .cerit-image-content {
     width: 270px;
-    /* width: 265px; */
     height: 500px;
   }
   .image-abt {
@@ -430,7 +435,6 @@ input:focus {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
-    /* background-position: 10% 20%; */
   }
   .form {
     width: 90%;
