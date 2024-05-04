@@ -57,6 +57,18 @@ html {
   background-clip: text;
   color: transparent;
 }
+.show {
+  opacity: 0;
+  animation: fadeIn 8s forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .home-page-introduction .home-page-introduction-info .profile-name {
   color: white;
   font-size: 2.9rem;
