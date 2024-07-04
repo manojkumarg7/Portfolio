@@ -4,9 +4,9 @@ btn.addEventListener("click", function (e) {
   //   console.log("jhi");
   Email.send({
     Host: "smtp.gmail.com",
-    Username: "manojkumar14g@gmail.com",
+    Username: "manojkumar64p@gmail.com",
     Password: "password",
-    To: "manojkumar14g@gmail.com",
+    To: "manojkumar64p@gmail.com",
     From: "you@isp.com",
     Subject: "This is the subject",
     Body: "And this is the body",

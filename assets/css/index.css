@@ -414,8 +414,10 @@ input:focus {
   padding: 15px 15px;
   margin-bottom: 15px;
 }
+
 .resume-wrapper {
   display: flex;
+  justify-content: center;
   gap: 20px 20px;
   flex-wrap: wrap;
 }
