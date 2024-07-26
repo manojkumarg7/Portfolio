@@ -236,31 +236,61 @@ html {
   }
 }
 /* skills */
-.skills .skill_container {
+
+.skills {
   width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.skills .skill_container {
   display: flex;
-  overflow-x: auto;
-  gap: 20px;
-  padding: 0px 20px 30px 20px;
+  justify-content: center;
+  position: relative;
 }
-.skills .skill_container::-webkit-scrollbar {
-  display: none;
-}
-.skills .skill_container .skill-image {
-  min-width: 170px;
-  height: 195px;
+
+.skills-box {
   background-color: white;
-  border: 1px solid gray;
+  width: 180px !important;
+  height: 180px;
   border-radius: 10px;
-  display: grid;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
-.skills .skill_container .skill-image .skill-name {
-  color: black;
+
+.slick-slide {
+  width: 220px !important;
+}
+
+.skills-box img {
+  margin: auto;
+  padding-top: 10px;
   font-weight: bold;
-  display: flex;
-  justify-content: center;
+}
+
+.skill-name {
+  padding-top: 10px;
+  color: black;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.prev_arrow {
+  position: absolute;
+  font-size: 50px;
+  bottom: -87px;
+  right: 100px;
+  cursor: pointer;
+}
+
+.next_arrow {
+  position: absolute;
+  font-size: 50px;
+  bottom: -85px;
+  right: 15px;
+  cursor: pointer;
+}
+
+ul.slick-dots {
+  display: none !important;
 }
 
 .box {
@@ -474,6 +504,17 @@ input:focus {
     padding: 8px 10px;
   }
   .about_section {
-    padding-bottom: 20px;
+    margin-bottom: 90px;
   }
+}
+
+.boxi {
+  display: flex;
+  gap: 20px;
+}
+
+.one {
+  width: 200px;
+  height: 200px;
+  background-color: red;
 }

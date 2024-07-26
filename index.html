@@ -4,6 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Manojkumar G PORTFOLIO</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+    />
     <!-- Bootstrap link -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -69,6 +73,7 @@
       </div>
     </nav>
     <!-- Navbar Ends -->
+
     <section id="home">
       <div class="home-page-introduction">
         <div class="image-wrapper">
@@ -81,7 +86,7 @@
             </div>
             <div class="show">
               <div>
-                <span class="profile-name">Manojkumar G</span>
+                <span class="profile-name">Manojkumar Gouda</span>
               </div>
               <div>
                 <span class="designation">Software Engineer </span>
@@ -339,13 +344,13 @@
     </div>
     <!-- About Me Sction -->
     <!-- Skills -->
-    <div class="skills">
+    <section class="skills">
       <p class="heading box">
         <span class="head-line-f">Learned </span>
         <span class="head-line-s">Skills</span>
       </p>
       <div class="skill_container">
-        <div class="skill-image">
+        <div class="skills-box">
           <img
             src="./assets/image/Html.svg"
             alt=""
@@ -354,7 +359,7 @@
           />
           <h5 class="skill-name">HTML</h5>
         </div>
-        <div class="skill-image">
+        <div class="skills-box">
           <img
             src="./assets/image/Css.svg"
             alt=""
@@ -363,98 +368,89 @@
           />
           <h5 class="skill-name">CSS3</h5>
         </div>
-        <div class="skill-image">
-          <img
-            src="./assets/image/Scss.svg"
-            alt=""
-            width="100px"
-            height="100px"
-          />
-          <h5 class="skill-name">SASS</h5>
-        </div>
-        <div class="skill-image">
+        <div class="skills-box">
           <img
             src="./assets/image/Js.svg"
             alt=""
             width="100px"
             height="100px"
           />
-          <h5 class="skill-name">JAVASCRIPT</h5>
+          <h5 class="skill-name">Javascript</h5>
         </div>
-        <div class="skill-image">
+        <div class="skills-box">
           <img
             src="./assets/image/Reactjs.svg"
             alt=""
             width="100px"
             height="100px"
           />
-          <h5 class="skill-name">REACT JS</h5>
+          <h5 class="skill-name">React js</h5>
         </div>
-        <div class="skill-image">
-          <img
-            src="./assets/image/git.svg"
-            alt=""
-            width="100px"
-            height="100px"
-          />
-          <h5 class="skill-name">GIT</h5>
-        </div>
-        <div class="skill-image">
-          <img
-            src="./assets/image/tailwindcss.png"
-            alt=""
-            width="100px"
-            height="100px"
-          />
-          <h5 class="skill-name">TAILWIND CSS</h5>
-        </div>
-        <div class="skill-image">
-          <img
-            src="./assets/image/bootstrap.svg"
-            alt=""
-            width="100px"
-            height="100px"
-          />
-          <h5 class="skill-name">BOOTSTRAP</h5>
-        </div>
-        <div class="skill-image">
-          <img
-            src="./assets/image/figma.svg"
-            alt=""
-            width="100px"
-            height="100px"
-          />
-          <h5 class="skill-name">FIGMA</h5>
-        </div>
-        <div class="skill-image">
-          <img
-            src="./assets/image/Typescript.png"
-            alt=""
-            width="100px"
-            height="100px"
-          />
-          <h5 class="skill-name">TYPESCRIPT</h5>
-        </div>
-        <div class="skill-image">
+        <div class="skills-box">
           <img
             src="./assets/image/java.png"
             alt=""
             width="100px"
             height="100px"
           />
-          <h5 class="skill-name">JAVA</h5>
+          <h5 class="skill-name">Java</h5>
         </div>
-        <div class="skill-image">
+        <div class="skills-box">
           <img
             src="./assets/image/sql.jpg"
             alt=""
             width="100px"
             height="100px"
           />
-          <h5 class="skill-name">SQL</h5>
+          <h5 class="skill-name">Sql</h5>
+        </div>
+        <div class="skills-box">
+          <img
+            src="./assets/image/git.svg"
+            alt=""
+            width="100px"
+            height="100px"
+          />
+          <h5 class="skill-name">Git</h5>
+        </div>
+        <div class="skills-box">
+          <img
+            src="./assets/image/tailwindcss.png"
+            alt=""
+            width="100px"
+            height="100px"
+          />
+          <h5 class="skill-name">Tailwind css</h5>
+        </div>
+        <div class="skills-box">
+          <img
+            src="./assets/image/bootstrap.svg"
+            alt=""
+            width="100px"
+            height="100px"
+          />
+          <h5 class="skill-name">Bootstrap</h5>
+        </div>
+        <div class="skills-box">
+          <img
+            src="./assets/image/figma.svg"
+            alt=""
+            width="100px"
+            height="100px"
+          />
+          <h5 class="skill-name">Figma</h5>
+        </div>
+        <div class="skills-box">
+          <img
+            src="./assets/image/Typescript.png"
+            alt=""
+            width="100px"
+            height="100px"
+          />
+          <h5 class="skill-name">Typescript</h5>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Skills  -->
     <!-- Certificates -->
@@ -664,6 +660,17 @@
     </div>
     <!-- web3 forms s
       -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
