@@ -20,7 +20,13 @@ html {
   width: 100%;
   z-index: 2;
 }
+.navbar-nav {
+  margin-left: auto;
+}
 
+.navbar-toggler {
+  margin-left: auto;
+}
 /* -------custom sroll bar -------------- */
 ::-webkit-scrollbar {
   width: 10px;
