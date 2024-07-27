@@ -16,7 +16,7 @@
 $(document).ready(function () {
   $(".skill_container").slick({
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 300,
     slidesToShow: 4,
     slidesToScroll: 1,
