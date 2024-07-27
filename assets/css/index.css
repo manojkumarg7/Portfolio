@@ -149,9 +149,10 @@ html {
   padding: 10px 0px 5px 20px;
   border-radius: 20px;
   background-color: #333333;
+  transition: 2s;
 }
 .feature-wrapper .feature-container .link-icon:hover {
-  background-color: #457ebe;
+  background-color: #436583d1;
 }
 
 .feature-wrapper .feature-container .feature-heading p {
